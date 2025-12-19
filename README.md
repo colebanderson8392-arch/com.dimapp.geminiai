@@ -162,14 +162,25 @@ cd com.dimapp.geminiai
 npm install
 
 # Run the app in development mode
-homey app run --r
+npm run run
+# Or with the Homey CLI directly:
+# homey app run
 
 # Validate the app
-homey app validate
+npm run validate
 
 # Build for production
-homey app build
+npm run build
+
+# Install the app on your Homey device
+npm run install-app
 ```
+
+### Available npm Scripts
+- `npm run validate` - Validate the app structure and configuration
+- `npm run build` - Build the app for production
+- `npm run run` - Run the app in development mode on your Homey
+- `npm run install-app` - Install the app on your Homey device
 
 ### Testing
 1. Install the app on your development Homey

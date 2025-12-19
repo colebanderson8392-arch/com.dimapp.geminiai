@@ -2,7 +2,12 @@
   "name": "com.dimapp.geminiforhomey",
   "version": "1.1.4",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "validate": "homey app validate",
+    "build": "homey app build",
+    "install-app": "homey app install",
+    "run": "homey app run"
+  },
   "devDependencies": {
     "@types/homey": "npm:homey-apps-sdk-v3-types@^0.3.12"
   },
